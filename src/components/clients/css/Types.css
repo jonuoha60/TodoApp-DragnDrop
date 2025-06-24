@@ -1,0 +1,48 @@
+.task-buttondel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d32f2f; /* Richer red for better visibility */
+    margin-bottom: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Task Container */
+.task-top {
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin: 8px 0;
+    width: 100%;
+    align-items: center;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+  .delete-task-button {
+    position: relative;
+    right: 5px;
+    z-index: 40; /* Ensure it appears above other content */
+  }
+  
+  .delete-task-button button {
+    background-color: #ffff; /* Button color */
+    color: #000000; /* Text color */
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  
+  .delete-task-button button:focus {
+    outline: none; /* Remove the outline when focused */
+  }
+  
