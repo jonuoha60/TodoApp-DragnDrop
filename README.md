@@ -1,70 +1,88 @@
 # Getting Started with Create React App
+📋 Drag-and-Drop To-Do App
+This is a To-Do Application that allows users to create, manage, and drag and drop their tasks or notes between different lists (e.g. pending, in-progress, completed). The app is built with React and uses Vite for fast development and hot-reloading.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+✅ Create new tasks and notes
 
-## Available Scripts
+✅ Drag and drop tasks between different status columns
 
-In the project directory, you can run:
+✅ Mark tasks as completed
 
-### `npm start`
+✅ Responsive design for mobile and desktop
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Smooth user interface with animations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ User authentication with login and signup
 
-### `npm test`
+✅ Local storage session handling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠 Technologies Used
+React
 
-### `npm run build`
+Vite
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📂 Getting Started
+Follow these steps to run the project locally.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
+bash
+Copy
+Edit
+git clone <repository-url>
+cd <project-folder>
+2. Install dependencies
+Make sure you have Node.js and npm installed.
 
-### `npm run eject`
+Run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy
+Edit
+npm install
+3. Start the development server
+Since this project uses Vite, you need to run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy
+Edit
+npm run dev
+You will see a local development server running at:
+http://localhost:5173/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This will hot-reload any changes you make to the project files.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📦 Required NPM Packages
+Make sure these core packages are installed (already handled if you run npm install):
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install react react-dom react-router-dom axios react-beautiful-dnd
+If you need to manually install any:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+npm install react-beautiful-dnd axios react-router-dom
+📑 Project Structure (Example)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Copy
+Edit
+my-app/
+├── public/
+├── src/
+│   ├── components/    # UI components like Header, Task lists
+│   ├── clients/         # Login, Signup, Task page
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── Navigation.jsx
+│   └── styles.css
+├── package.json
+├── vite.config.js
+└── README.md
+💡 Notes
+You must have Vite installed globally or use the npm run dev script directly.
 
-### Analyzing the Bundle Size
+All authentication tokens and user sessions are handled using localStorage.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Backend API endpoints should be updated in axios requests if you deploy to production.
+replace all fetched api in the frontend with your local ip address
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
