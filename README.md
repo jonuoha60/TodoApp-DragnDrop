@@ -1,21 +1,20 @@
-# Getting Started with Create React App
-📋 Drag-and-Drop To-Do App
+# Drag-and-Drop To-Do App
 This is a To-Do Application that allows users to create, manage, and drag and drop their tasks or notes between different lists (e.g. pending, in-progress, completed). The app is built with React and uses Vite for fast development and hot-reloading.
 
-🚀 Features
-✅ Create new tasks and notes
+Features
+ Create new tasks and notes
 
-✅ Drag and drop tasks between different status columns
+ Drag and drop tasks between different status columns
 
-✅ Mark tasks as completed
+ Mark tasks as completed
 
-✅ Responsive design for mobile and desktop
+ Responsive design for mobile and desktop
 
-✅ Smooth user interface with animations
+ Smooth user interface with animations
 
-✅ User authentication with login and signup
+ User authentication with login and signup
 
-✅ Local storage session handling
+ Local storage session handling
 
 🛠 Technologies Used
 React
@@ -23,37 +22,31 @@ React
 Vite
 
 
-📂 Getting Started
+ Getting Started
 Follow these steps to run the project locally.
 
 1. Clone the repository
-bash
-Copy
-Edit
-git clone <repository-url>
-cd <project-folder>
+
+git clone
+cd 
 2. Install dependencies
 Make sure you have Node.js and npm installed.
 
 Run:
 
-bash
-Copy
-Edit
+``` bash
 npm install
 3. Start the development server
 Since this project uses Vite, you need to run:
 
-bash
-Copy
-Edit
+``` bash
 npm run dev
 You will see a local development server running at:
 http://localhost:5173/
 
 This will hot-reload any changes you make to the project files.
 
-📦 Required NPM Packages
+** Required NPM Packages
 Make sure these core packages are installed (already handled if you run npm install):
 
 
@@ -61,24 +54,6 @@ npm install react react-dom react-router-dom axios react-beautiful-dnd
 If you need to manually install any:
 
 
-npm install react-beautiful-dnd axios react-router-dom
-📑 Project Structure (Example)
-
-Copy
-Edit
-my-app/
-├── public/
-├── src/
-│   ├── components/    # UI components like Header, Task lists
-│   ├── clients/         # Login, Signup, Task page
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── Navigation.jsx
-│   └── styles.css
-├── package.json
-├── vite.config.js
-└── README.md
-💡 Notes
 You must have Vite installed globally or use the npm run dev script directly.
 
 All authentication tokens and user sessions are handled using localStorage.
