@@ -24,7 +24,6 @@ Vite
 
 ## Getting Started
 Follow these steps to run the project locally.
-
 1. Clone the repository
 
 git clone https://github.com/jonuoha60/todo-drag-drop.git
@@ -33,8 +32,6 @@ cd my-app
 Make sure you have Node.js and npm installed.
 
 Run:
-
-`` bash
 npm install
 
 ## 3. Start the development server
@@ -45,20 +42,9 @@ npm run dev
 You will see a local development server running at:
 http://localhost:5173/
 
-This will hot-reload any changes you make to the project files.
-
-** Required NPM Packages
-Make sure these core packages are installed (already handled if you run npm install):
-
-
-npm install react react-dom react-router-dom axios react-beautiful-dnd
-If you need to manually install any:
-
 
 You must have Vite installed globally or use the npm run dev script directly.
 
 All authentication tokens and user sessions are handled using localStorage.
 
-Backend API endpoints should be updated in axios requests if you deploy to production.
-replace all fetched api in the frontend with your local ip address
 
