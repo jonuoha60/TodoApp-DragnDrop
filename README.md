@@ -1,7 +1,9 @@
 # Drag-and-Drop To-Do App
 This is a To-Do Application that allows users to create, manage, and drag and drop their tasks or notes between different lists (e.g. pending, in-progress, completed). The app is built with React and uses Vite for fast development and hot-reloading.
 
-Features
+## Features
+--
+
  Create new tasks and notes
 
  Drag and drop tasks between different status columns
@@ -15,11 +17,7 @@ Features
  User authentication with login and signup
 
  Local storage session handling
-
-🛠 Technologies Used
-React
-
-Vite
+ 
 
 
 ## Getting Started
